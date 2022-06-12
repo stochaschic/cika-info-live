@@ -6,7 +6,7 @@
     import Credentials from "../components/Credentials.svelte";
     import TechStack from "../components/TechStack.svelte";
     import About from "../components/About.svelte";
-    import BackToTop from "../components/BackToTop.svelte";
+    import BacktoTop from "../components/BacktoTop.svelte";
 
 
     let isOpenModal=false;
@@ -54,7 +54,7 @@
 <About/>
 </a>
 
-<BackToTop />
+<BacktoTop />
 
 <style>
 hr {
