@@ -34,6 +34,7 @@
       bottom: 20px;
       color: white;
       background-color: black;
+      padding:0.8em;
     }
   
     .back-to-top.hidden {

@@ -1,7 +1,5 @@
 <!-- src/Modal.svelte -->
 <script>
-    import { createEventDispatcher } from 'svelte';
-		
     export let isOpenModal;
 
 </script>

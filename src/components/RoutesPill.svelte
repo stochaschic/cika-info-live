@@ -1,7 +1,7 @@
 <script>
     import Contact from './Contact.svelte';
 
-    let buttonList = [
+    const buttonList = [
         { name: 'Contact', buttonColor: '#e3dac9', textColor: '#000', linkTo: "" },
         { name: 'Projects', buttonColor: '#000', textColor: '#FFF', linkTo: "#sample-projects" },
         { name: 'Credentials', buttonColor: '#000', textColor: '#fff', linkTo: '#credentials' },

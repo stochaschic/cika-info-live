@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Home | cika.info</title>
+  <meta property="og:title" content="home" />
+</svelte:head>
+
 <script>
     import PostCard from "../components/PostCard.svelte";
     import item from "../data/projects.json";
@@ -7,6 +12,7 @@
     import TechStack from "../components/TechStack.svelte";
     import About from "../components/About.svelte";
     import BacktoTop from "../components/BacktoTop.svelte";
+    import {slide} from 'svelte/transition';
 
 
     let isOpenModal=false;
@@ -18,7 +24,7 @@
 
 <Header/>
 <hr>
-<a name="sample-projects">
+<a name="sample-projects" >
 <div class="section-header">
     Projects <span on:click={openModal}>ⓘ</span>
 </div>

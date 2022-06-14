@@ -1,7 +1,8 @@
 <!-- src/Modal.svelte -->
 <script>
     import { createEventDispatcher } from 'svelte';
-	
+
+
     const dispatch = createEventDispatcher();
 	
     export let isOpenModal;
@@ -12,9 +13,9 @@
     }
 </script>
 
-<div id="background" style="--display: {isOpenModal ? 'block' : 'none'};" on:click={closeModal}></div>
-<div id="name-card" style="--display: {isOpenModal ? 'block' : 'none'};">
-    <p id="phone-number">ask@cika.info</p>
+<div id="background" style="--display: {isOpenModal ? 'block' : 'none'};" on:click={closeModal} ></div>
+<div id="name-card" style="--display: {isOpenModal ? 'block' : 'none'};" >
+    <p id="phone-number" >ask@cika.info</p>
     <div id="company-section">
         <p id="company">Cika & Cika</p>
         <p id="murders-and-executions">Queries And Executions</p>
@@ -58,6 +59,7 @@
         width: 480px;
         height: calc(20/35 * 480px);
         text-transform: uppercase;
+
 
     }
 

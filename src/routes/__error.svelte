@@ -1,3 +1,9 @@
+
+<svelte:head>
+    <title>Sorry.. | cika.info</title>
+    <meta property="og:title" content='sorry' />
+  </svelte:head>
+  
 <img src="../ngintip.png" alt="">
 <br>
 <p>
