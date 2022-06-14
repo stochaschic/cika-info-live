@@ -10,7 +10,7 @@
 
 <style>
 
-
+ 
     #modal {
         display: var(--display);
         position: absolute;
